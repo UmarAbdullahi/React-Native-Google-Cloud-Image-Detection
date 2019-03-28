@@ -1,0 +1,19 @@
+{
+  "name": "logo-detect-1689",
+  "description": "A blueprint for React Native apps using Expo. This django application was built with Crowdbotics www.crowdbotics.com",
+  "repository": "https://github.com/crowdbotics-apps/logo-detect-1689",
+  "keywords": [
+    "mobile_app",
+    "react_native_expo"
+  ],
+  "env": {
+    "DEBUG_COLLECTSTATIC": "1"
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev",
+    "sendgrid:starter"
+  ],
+  "scripts": {
+    "postdeploy": "./backend/postdeploy.sh"
+  }
+}
