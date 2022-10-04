@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^9.0.0",
-    "expo": "^32.0.0",
+    "expo": "^46.0.14",
     "expokit": "^32.0.3",
     "firebase": "^5.9.1",
     "lodash": "^4.17.11",
